@@ -32,7 +32,8 @@ For cmd.exe support, perform the same steps above but in a cmd.exe window.
     - If you don't have an `-AllowPrerelease` flag, upgrade PowerShellGet with `Install-Module -Name PowerShellGet -Force` first.
 1. Ensure the latest version of PSReadLine (2.0 or later) is installed. It's installed by default in Windows 10, but you'll most likely [need to upgrade it](https://github.com/lzybkr/PSReadLine#user-content-upgrading).
     - You can verify that 2.0 was installed by running `(Get-Module PSReadLine).Version`. If the installation does not appear to work, please see [this issue in PSReadLine](https://github.com/PowerShell/PowerShellGet/issues/318#issuecomment-418605987)
-1. Include [this powershell configuration](https://github.com/dracula/powershell/blob/master/theme/dracula-prompt-configuration.ps1) in your PowerShell `$profile` file.<sup>[1](#profile-explanation)</sup>
+1. Include [this powershell configuration](https://gist.github.com/coins5/c24183cf844288ef51cec24cc2c9b41e) in your PowerShell `$profile` file.<sup>[1](#profile-explanation)</sup>
+
 
 </p>
 </details>
